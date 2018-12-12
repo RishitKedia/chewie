@@ -9,10 +9,16 @@ environment:
 
 dependencies:
   open_iconic_flutter: ">=0.3.0 <0.4.0"
-  video_player: ">=0.7.0 <0.8.0"
   screen: ">=0.0.4 <0.1.0"
   flutter:
     sdk: flutter
+  
+  video_player:
+    git:
+      url: https://github.com/recastrodiaz/plugins.git
+      path: packages/video_player  
+      ref: d589ee54ce405e38ebc42b1961e54273cd375726
+    version: 0.8.1
 
 dev_dependencies:
   flutter_test:
